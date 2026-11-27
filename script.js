@@ -2,10 +2,12 @@
   const DAYS = window.ADVENT_DAYS;
   const STORAGE_KEY = "adviento-abiertos";
   const params = new URLSearchParams(location.search);
+  // Ponlo a true para que cada día solo se abra cuando llegue su fecha de diciembre
+  const BLOQUEO_ACTIVO = false;
 
   // ?preview muestra todo desbloqueado; ?dia=N simula que hoy es N de diciembre (para revisar)
   function unlockedUpTo() {
-    if (params.has("preview")) return 25;
+    if (!BLOQUEO_ACTIVO || params.has("preview")) return 25;
     if (params.has("dia")) return Math.max(0, Math.min(25, parseInt(params.get("dia"), 10) || 0));
     const now = new Date();
     const month = now.getMonth();
