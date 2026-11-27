@@ -1,0 +1,28 @@
+// Contenido de cada día del calendario. Edita libremente títulos, emojis y textos.
+window.ADVENT_DAYS = [
+  { emoji: "🎄", title: "¡Empieza la magia!", text: "Hoy arranca diciembre y con él nuestra cuenta atrás. Cada día tendrás un pequeño regalo aquí, porque tú te mereces que la Navidad dure todo el mes." },
+  { emoji: "☕", title: "Chocolate caliente", text: "Vale por una tarde de manta, chocolate caliente con nubes y una peli navideña elegida por ti. Yo pongo los abrazos." },
+  { emoji: "⭐", title: "Mi estrella", text: "Dicen que la estrella del árbol guía el camino. La mía eres tú: contigo siempre sé hacia dónde ir." },
+  { emoji: "🎅", title: "Carta a Papá Noel", text: "Querido Papá Noel: este año no necesito nada más. Ya tengo a mi lado a la persona más bonita del mundo. Gracias." },
+  { emoji: "🍪", title: "Galletas de jengibre", text: "Vale por hornear galletas juntos (aunque acabemos con más harina encima que en la bandeja)." },
+  { emoji: "🦌", title: "Rodolfo y su nariz", text: "Rodolfo ilumina el trineo con su nariz; tú iluminas mis días con tu sonrisa. Y la tuya brilla todavía más." },
+  { emoji: "❄️", title: "Copo único", text: "No hay dos copos de nieve iguales… y tampoco hay nadie como tú. Eres irrepetible y eres mía." },
+  { emoji: "🎁", title: "El mejor regalo", text: "Si pudiera envolver un momento, envolvería cualquiera de los que paso contigo. Eres mi regalo favorito, todos los días del año." },
+  { emoji: "🕯️", title: "Una velita", text: "Enciende una vela esta noche y pide un deseo. Yo ya pedí el mío: seguir sumando Navidades a tu lado." },
+  { emoji: "🧣", title: "Bufanda y abrazo", text: "Vale por un abrazo largo, de esos que calientan más que cualquier bufanda. Canjeable en cualquier momento." },
+  { emoji: "🎶", title: "Villancico", text: "Hoy toca poner música navideña a todo volumen y bailar por casa, aunque desafinemos. Prometo no reírme… mucho." },
+  { emoji: "💌", title: "Carta de amor", text: "Te quiero por cómo me miras, por cómo me cuidas y por cómo haces que todo parezca más fácil. Gracias por existir." },
+  { emoji: "🌟", title: "Paseo de luces", text: "Vale por un paseo de la mano viendo las luces de Navidad de la ciudad. Tú eliges la ruta, yo llevo el chocolate." },
+  { emoji: "🧦", title: "Calcetines navideños", text: "Hoy toca ponerse los calcetines más horteras y navideños que tengas. Prometo foto conjunta como prueba." },
+  { emoji: "💋", title: "Bajo el muérdago", text: "Ya sabes lo que pasa bajo el muérdago… Vale por un beso por sorpresa en el momento más inesperado." },
+  { emoji: "🛷", title: "En trineo", text: "Si tuviera el trineo de Papá Noel, te llevaría a dar la vuelta al mundo en una noche. Por ahora, apúntate a una escapada conmigo." },
+  { emoji: "🍫", title: "Dulce como tú", text: "Hoy te mereces un capricho dulce. Busca bien… quizás haya algo escondido para ti hoy 😉" },
+  { emoji: "🎞️", title: "Maratón de pelis", text: "Vale por un maratón de pelis navideñas: Solo en casa, Love Actually y la que tú quieras. Palomitas incluidas." },
+  { emoji: "🔔", title: "Campanitas", text: "Cada vez que suene una campana esta Navidad, acuérdate de que alguien está pensando en ti. Ese soy yo." },
+  { emoji: "🏡", title: "Hogar", text: "Mi hogar no es un sitio, eres tú. Donde estés tú, ahí siempre será Navidad para mí." },
+  { emoji: "🥂", title: "Brindis", text: "Brindo por nosotros, por todo lo vivido y por todo lo que nos queda por vivir. ¡Salud, amor!" },
+  { emoji: "📸", title: "Recuerdos", text: "Hoy elige tu foto favorita de los dos. Me encantaría saber qué momento guardas con más cariño." },
+  { emoji: "🎀", title: "Lazo rojo", text: "Me pondría un lazo rojo y me metería debajo del árbol, porque lo único que quiero regalarte es todo mi tiempo." },
+  { emoji: "🌙", title: "Nochebuena", text: "Esta noche es mágica. Papá Noel está de camino… pero yo ya tengo mi deseo cumplido: estar contigo. ¡Feliz Nochebuena!" },
+  { emoji: "❤️", title: "¡Feliz Navidad!", text: "Lo logramos: 25 días de cuenta atrás y hoy por fin es Navidad. Gracias por hacer de cada día un regalo. Te quiero muchísimo. ¡Feliz Navidad, mi amor!" }
+];
